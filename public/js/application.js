@@ -4,4 +4,26 @@ $(document).ready(function() {
   // when we try to bind to them
 
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  
+  $( "#tweet" ).submit(function( event ) {
+    event.preventDefault();
+    alert("hello");
+
+   $.ajax({
+    url : "/tweet",
+    type: "POST",
+    data : $("#tweet").serialize(),
+    success: function()
+    { 
+        $("#previous_tweet").text("Success!");
+        console.log('success');
+        document.forms["tweet"].reset();
+    }
+
+    });
+
+    $("#previous_tweet").text("Waiting!");
+
+
+  });
 });
