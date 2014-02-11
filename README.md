@@ -1,18 +1,18 @@
 #Tweet Now! 2: Multi-User Challenge
 
-Building on Tweet Now! 1: Single User ( https://socrates.devbootcamp.com/challenges/313 ), let's add support for logging in with Twitter. This will be our first application that uses OAuth for authentication.
+Building on Tweet Now! 1: Single User ( https://socrates.devbootcamp.com/challenges/313 ), let's add support for _logging in with Twitter_. This will be our first application that uses _OAuth_ for _authentication_.
 
-Twitter uses [OAuth version 1](http://oauth.net/core/1.0a/) for API authorization. OAuth (and particularly, OAuth version 1) is hard. As such, we're going to provide a [skeleton](http://cl.ly/0T1b461H2C2W) for you that handles the nasty OAuth bits. Later, if you are feeling adventurous, you can try to code-up your own OAuth conversation.
+Twitter uses [_OAuth version 1_](http://oauth.net/core/1.0a/) for _API authorization_. _OAuth_ (and particularly, _OAuth version 1_) is hard. As such, we're going to provide a [skeleton](http://cl.ly/0T1b461H2C2W) for you that handles the nasty OAuth bits. Later, if you are feeling adventurous, you can try to code-up your own OAuth conversation.
 
 ##Objectives
 
-Create an application that allows a user to sign in via Oauth from Twitter and then send a tweet.
+Create an application that allows a user to sign in via _Oauth_ from Twitter and then send a tweet.
 
 ###Download the Application Skeleton
 
-Here's the [application skeleton](http://cl.ly/0T1b461H2C2W) that you should use that has already implemented the nasty OAuth bits. Unless you're feeling incredibly ambitious, you should use it as a starting point for your multi-user Tweet Now! app.
+Here's the [_application skeleton_](http://cl.ly/0T1b461H2C2W) that you should use that has already implemented the _nasty OAuth bits_. Unless you're feeling incredibly ambitious, you should use it as a starting point for your multi-user Tweet Now! app.
 
-BEFORE you start, spend time reading the [Twitter OAuth Documentation](https://dev.twitter.com/docs/auth/oauth) and familiarize yourself with the basics of OAuth version 1. See if you can relate what you learn to the image below.
+BEFORE you start, spend time reading the [_Twitter OAuth Documentation_](https://dev.twitter.com/docs/auth/oauth) and familiarize yourself with the _basics of OAuth version 1_. See if you can relate what you learn to the image below.
 
 ###Configuring Your Environment
 
